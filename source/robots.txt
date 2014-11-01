@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Disallow: /pdf/ffd8ffe1277145786966000049492a0espanol.pdf
+Disallow: /pdf/ffd8ffe1277145786966000049492a0english.pdf
