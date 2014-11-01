@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 git add . -A
 git commit -m "Add latest changes"
-BASEPATH=/ bundle exec middleman deploy
+BASEPATH=/ middleman deploy
