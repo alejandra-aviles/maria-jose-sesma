@@ -1,0 +1,65 @@
+.columns {
+	@include group;
+	background-color: rgb(200,200,200);
+	padding: 40px;
+
+	a {
+		color: rgb(29,40,255);
+	}
+
+	h4 {
+	letter-spacing: 1px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: rgba(75,75,75,1);
+	padding-bottom: 15px;
+	}
+	.column {
+		float:left;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.column-medios {
+		width:50%;
+		p {
+		font-family: "proxima-nova";
+		font-weight: 400;
+		line-height: 1.6em;
+		font-size: 0.8em;
+		letter-spacing: 0.6px;
+		font-style: normal;
+		color: black;
+		padding-bottom: 20px;
+		}
+		h3 {
+		font-family: "proxima-nova";
+		line-height: 1.6em;
+		font-weight: 400;
+		font-size: 0.7em;
+		letter-spacing: 0.6px;
+		font-style: italic;
+		font-style: normal;
+		color: rgb(116,119,100);
+		padding-left: 60px;
+		padding-bottom: 20px;
+
+		}
+
+		h6 {
+			padding-top: 30px;
+		}
+}
+
+	.column-tercio {
+		width:33.333%;
+	}
+
+	.column-dos-tercios {
+		width:66.666%;
+	}
+}
+
+.info .columns {
+	min-height: 400px;
+}
