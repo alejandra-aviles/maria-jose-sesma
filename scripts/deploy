@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 git add . -A
 git commit -m "Add latest changes"
+git push origin
 BASEPATH=/ middleman deploy
